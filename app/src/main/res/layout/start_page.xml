@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame_11"
+    android:background="#030231"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    >
+
+    <!--
+    Font family: MS Reference Sans Serif
+    Line height: 19sp
+    -->
+    <!-- styles.xml -->
+
+    <TextView
+        android:id="@+id/agora"
+        android:layout_width="119dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="147dp"
+        android:gravity="center_horizontal|center_vertical"
+
+        android:textAppearance="@style/agora" />
+
+    <View
+        android:id="@+id/group_356"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="136dp" />
+
+    <TextView
+        android:id="@+id/the_place_t"
+        android:layout_width="301dp"
+        android:layout_height="134dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="273dp"
+        android:layout_marginEnd="65dp"
+        android:gravity="center_horizontal|center_vertical"
+
+        android:textAppearance="@style/the_place_t" />
+
+    
+    <Button
+        android:id="@+id/letsStartButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="555dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="145dp"
+        android:alpha="1"
+        android:background="@drawable/rectangle_2"
+        android:textAppearance="@style/the_place_t"
+        android:text="Let's start"  android:layout_height="0dp" android:layout_width="0dp"/>
+
+</RelativeLayout>
+
+
+    <!-- drawable/frame_11.xml -->

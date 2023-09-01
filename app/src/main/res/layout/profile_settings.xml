@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20b2aa">
+
+    <EditText
+        android:id="@+id/editSectie"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/rectangle"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513" />
+
+    <TextView
+
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="8dp"
+        android:text="Sectie"
+        android:textAppearance="@style/the_place_t"
+        app:layout_constraintBottom_toTopOf="@+id/editSectie"
+        app:layout_constraintStart_toStartOf="@+id/editSectie" />
+
+    <EditText
+        android:id="@+id/editAn"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/rectangle"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516" />
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="An"
+        android:textAppearance="@style/the_place_t"
+        app:layout_constraintBottom_toTopOf="@+id/editAn"
+        app:layout_constraintStart_toStartOf="@+id/editAn" />
+
+    <TextView
+
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="First Name"
+        android:textAppearance="@style/the_place_t"
+        app:layout_constraintBottom_toTopOf="@+id/editFistName"
+        app:layout_constraintStart_toStartOf="@+id/editFistName" />
+
+    <EditText
+        android:id="@+id/editFistName"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+
+        android:background="@drawable/rectangle"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="8dp"
+        android:text="Last  Name"
+        android:textAppearance="@style/the_place_t"
+        app:layout_constraintBottom_toTopOf="@+id/LastName"
+        app:layout_constraintStart_toStartOf="@+id/LastName" />
+
+    <EditText
+        android:id="@+id/LastName"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.856"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Facultate"
+        android:textAppearance="@style/the_place_t"
+        app:layout_constraintBottom_toTopOf="@+id/editFacultate"
+        app:layout_constraintStart_toStartOf="@+id/editFacultate" />
+
+    <EditText
+        android:id="@+id/editFacultate"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/rectangle"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Password"
+        android:textAppearance="@style/the_place_t"
+        app:layout_constraintBottom_toTopOf="@+id/editPassword"
+        app:layout_constraintStart_toStartOf="@+id/editPassword" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Comfirm Password"
+        android:textAppearance="@style/the_place_t"
+        app:layout_constraintBottom_toTopOf="@+id/editCofirmPassword"
+        app:layout_constraintStart_toStartOf="@+id/editCofirmPassword" />
+
+    <EditText
+        android:id="@+id/editCofirmPassword"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle"
+
+
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731" />
+
+    <Button
+        android:id="@+id/saveChangesButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rectangle_3"
+        android:text="Save"
+        android:textAppearance="@style/the_place_t"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.845" />
+
+    <Button
+        android:id="@+id/deleteUserButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rectangle_3"
+        android:text="Delete user"
+        android:textAppearance="@style/the_place_t"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.845" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
